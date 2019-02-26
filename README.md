@@ -12,11 +12,11 @@ The code is written in Python 3.6 and pytorch 0.3.0.
 
 Precion/recall curves of CNN+ATT_BL, CNN+ATT_BL+BAG_ATT, CNN+ATT_RA, CNN+ATT RA+BAG ATT
 
-<p align="center"><img width="40%" src="figure/CNNmethods.pdf"/></p>
+<p align="center"><img width="40%" src="figure/CNNmethods.jpg"/></p>
 
 Precion/recall curves of PCNN+ATT_BL, PCNN+ATT_BL+BAG_ATT, PCNN+ATT_RA, PCNN+ATT_RA+BAG_ATT
 
-<p align="center"><img width="40%" src="figure/PCNNmethods.pdf"/></p>
+<p align="center"><img width="40%" src="figure/PCNNmethods.jpg"/></p>
 
 ### AUC Results
 
