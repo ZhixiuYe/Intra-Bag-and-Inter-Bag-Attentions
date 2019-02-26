@@ -31,7 +31,7 @@ PCNN+ATT_RA | 0.403 | **0.422**
 
 1. upzip the file `NYT_data/NYT_data.zip`
 
-2. Make data folder in the following structure
+2. make data folder in the following structure
 
 ```
 Intra-Bag-and-Inter-Bag-Attentions

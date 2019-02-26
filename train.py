@@ -7,13 +7,11 @@ from sklearn.metrics import auc
 import numpy as np
 import torch
 import torch.nn as nn
-import torch.nn.functional as Fh
 import torch.optim as optim
 import torch.nn.functional as F
-import torch.nn.init as weight_init
 from sklearn.metrics import average_precision_score
 from torch.autograd import Variable
-from preprocess.dataset import DocumentContainer
+from preprocess.data2pkl import DocumentContainer
 from model.model_bagatt import Model
 
 
