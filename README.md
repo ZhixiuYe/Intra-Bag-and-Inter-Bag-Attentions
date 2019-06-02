@@ -74,3 +74,25 @@ CUDA_VISIBLE_DEVICES=0 python train.py --pretrain --use_RA --sent_encoding pcnn 
 ```
 python plot.py --model_name PCNN_ATTRA_BAGATT
 ```
+
+
+## Cite
+
+If you use the code, please cite the following paper:
+**"[Distant Supervision Relation Extraction with Intra-Bag and Inter-Bag Attentions](https://www.aclweb.org/anthology/N19-1288)"**
+Zhi-Xiu Ye, Zhen-Hua Ling. _NAACL (2019)_
+
+```
+@inproceedings{ye-ling-2019-distant,
+    title = "Distant Supervision Relation Extraction with Intra-Bag and Inter-Bag Attentions",
+    author = "Ye, Zhi-Xiu  and
+      Ling, Zhen-Hua",
+    booktitle = "Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+    month = jun,
+    year = "2019",
+    address = "Minneapolis, Minnesota",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/N19-1288",
+    pages = "2810--2819",
+}
+```
