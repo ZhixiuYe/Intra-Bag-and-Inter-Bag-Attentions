@@ -6,7 +6,7 @@ from sklearn.metrics import auc
 import matplotlib.pyplot as plt
 import argparse
 
-parser = argparse.ArgumentParser(description='Learning with LM-LSTM-CRF together with Language Model')
+parser = argparse.ArgumentParser(description='Plot P-R curve')
 parser.add_argument('--model_name', default='PCNN_ATTRA_BAGATT', help='path to model file')
 args = parser.parse_args()
 
