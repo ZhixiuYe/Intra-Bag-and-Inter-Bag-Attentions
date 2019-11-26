@@ -436,7 +436,7 @@ if __name__ == "__main__":
 
     model = Model(word_length=len(Wv), feature_length=len(PF1), cnn_layers=args.cnn_filter,
                   kernel_size=(args.cnn_kernel, args.word_embedding_size+2*args.PF_size),
-                  Wv=Wv, pf1=PF2, pf2=PF2, num_classes=args.num_classes, name=args.modelname)
+                  Wv=Wv, pf1=PF1, pf2=PF2, num_classes=args.num_classes, name=args.modelname)
     model.cuda()
 
     if args.pretrain:
