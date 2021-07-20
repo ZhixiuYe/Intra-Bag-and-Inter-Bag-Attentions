@@ -275,7 +275,7 @@ def pretrainModel(model, train_data, datasets, args):
                 loss = model.CNN_ATTRA(total_word, total_pos1, total_pos2,
                                        total_pcnnmask, total_shape, y_batch)
             if not args.use_RA and args.sent_encoding == "pcnn":
-                loss = model.PCNN_ATTRA(total_word, total_pos1, total_pos2,
+                loss = model.PCNN_ATTBL(total_word, total_pos1, total_pos2,
                                         total_pcnnmask, total_shape, y_batch)
             if not args.use_RA and args.sent_encoding == "cnn":
                 loss = model.CNN_ATTBL(total_word, total_pos1, total_pos2,
